@@ -18,6 +18,7 @@ line 8: put your SUPER SECRET private key from your recaptcha account
   here
 line 26: email address where you want the web submissions to go to
   (e.g. your primary or personal or business only email address)
+line 27: subject of email that arrives in your client
 line 29: email address you want your emails to appear to come from.
   be careful that if you use, say, admin@yourdomain.com (and, for
 	example it goes down) and you mess up line 26, you may get some
