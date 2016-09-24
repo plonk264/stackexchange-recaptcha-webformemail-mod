@@ -1,0 +1,26 @@
+notes:
+
+mailform.html:
+line 4: action="#" needs to be a target, e.g. mail.php (or whatever
+  you call it)
+line 17: put your (public) key from your recaptcha account where
+  SITEKEY is
+line 21: alternative way to hide your email address. click on "j..."
+  to test it out but also get a link to how to make your own. it's
+	an <a href...> so you can use an image as the clickable link, too.
+
+mail.php:
+(you may want to change the name as needed (don't forget to change
+  mailform.html line 4) ...i'm assuming there are spambots that
+	troll the internet looking for commonly named email submission
+	scripts)
+line 8: put your SUPER SECRET private key from your recaptcha account
+  here
+line 26: email address where you want the web submissions to go to
+  (e.g. your primary or personal or business only email address)
+line 29: email address you want your emails to appear to come from.
+  be careful that if you use, say, admin@yourdomain.com (and, for
+	example it goes down) and you mess up line 26, you may get some
+	infinite loop between the two non existant addresses)
+line 30: makes replying to the person easier (as long as they typed
+  the correct thing on the website) in your client
