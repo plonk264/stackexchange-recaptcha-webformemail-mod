@@ -3,7 +3,7 @@ notes:
 requirements:
 webserver (apache, nginx, lighttpd, iis, etc)
 php
-recaptcha account log into google/gmail, then go to https://www.google.com/recaptcha
+recaptcha account: log into google/gmail, then go to https://www.google.com/recaptcha
 
 mailform.html:
 line 4: action="#" needs to be a target, e.g. mail.php (or whatever
